@@ -111,9 +111,9 @@ function login() {
         pass === usuarios[rol].clave
     ) {
         if (rol === "cliente") {
-            window.location.href = "cliente.html";
+            window.location.href = "Cliente.html";
         } else {
-            window.location.href = "index.html";
+            window.location.href = "Conductor.html";
         }
     } else {
         error.innerText = "Usuario o contraseña incorrectos";
